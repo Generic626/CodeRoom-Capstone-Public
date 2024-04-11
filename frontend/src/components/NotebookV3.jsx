@@ -293,7 +293,7 @@ const Notebook = () => {
   }, [socket, code, title, question, readOnly]);
 
   return (
-    <div className="h-screen bg-[#333333] px-2 py-2 flex flex-col ml-[70px] w-auto">
+    <div className="h-screen bg-[#333333] px-2 py-2 flex flex-col ml-[70px] w-auto overflow-clip">
       {/* Top Bar */}
       <div className="h-[40px] flex items-center justify-between mb-2">
         {/* Title Input */}
