@@ -22,7 +22,7 @@ const Router = () => {
           <Route path="recent" element={<RecentPage />} />
           <Route path="your-notebooks" element={<YourNotebooksPage />} />
           <Route path="shared-with-you" element={<SharedWithYouPage />} />
-          <Route path="account" element={<AccountPage />}></Route>
+          {/* <Route path="account" element={<AccountPage />}></Route> */}
           <Route path="*" element={<OverViewPage />} />
         </Route>
       </Route>

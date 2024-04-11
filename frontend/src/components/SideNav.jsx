@@ -37,7 +37,7 @@ const SideNav = () => {
             className="flex items-center justify-center mt-8 mb-6 cursor-pointer"
             onClick={() =>
               window.open(
-                "https://github.com/Generic626/CodeRoom-Capstone",
+                "https://github.com/Generic626/CodeRoom-Capstone-Public",
                 "_blank"
               )
             }
